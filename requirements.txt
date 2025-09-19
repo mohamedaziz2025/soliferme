@@ -1,0 +1,95 @@
+# ArborVision - Requirements
+# Application de détection et analyse arboricole
+
+# Interface utilisateur
+streamlit==1.24.0
+streamlit-drawable-canvas==0.9.0
+streamlit-webrtc==0.47.1
+streamlit-camera-input-live==0.2.0
+
+# Vision par ordinateur et IA
+ultralytics==8.0.196
+opencv-python-headless==4.8.0.76
+# opencv-contrib-python n'est pas nécessaire et peut causer des conflits sur Streamlit Cloud
+
+# OCR et QR Code
+easyocr
+pyzbar
+qrcode
+
+# Traitement d'images
+Pillow==9.5.0
+numpy==1.24.3
+scipy==1.10.1
+scikit-image==0.21.0
+
+# Manipulation de données
+pandas==2.0.3
+openpyxl==3.1.2
+
+# Visualisation
+matplotlib
+seaborn
+plotly
+
+# Utilitaires de base
+requests
+json5
+PyYAML
+
+# Gestion des dates et temps
+python-dateutil
+
+# Interface système
+psutil
+
+# Configuration et logging
+loguru
+python-dotenv
+
+# Codecs vidéo (optionnel pour certains formats)
+imageio
+imageio-ffmpeg
+
+# Support pour les formats d'images avancés
+pillow-heif
+
+# Barres de progression
+tqdm
+
+# PyTorch - version CPU pour Streamlit Cloud
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+
+# Pour les calculs scientifiques
+sympy==1.12.0
+
+# Support des formats de données
+h5py==3.9.0
+
+# Détection automatique des encodages
+chardet==5.2.0
+
+# Interface Web avancée
+streamlit-aggrid
+streamlit-option-menu
+
+# Gestion mémoire optimisée
+memory-profiler
+
+# Support multiplateforme
+pathlib2
+
+# Validation des données
+pydantic
+
+# Formats d'export avancés
+reportlab
+fpdf2
+
+# Traitement parallèle
+joblib
+
+# Interface mobile (optionnel)
+streamlit-mobile-detection
