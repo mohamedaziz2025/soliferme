@@ -1,38 +1,13 @@
-# Streamlit + UI
 streamlit==1.24.0
 streamlit-drawable-canvas==0.9.0
 streamlit-webrtc==0.47.1
 streamlit-camera-input-live==0.2.0
-
-# Vision
 ultralytics==8.0.196
 opencv-python-headless==4.8.0.76
 easyocr
 pyzbar
 qrcode
-
-# Images
-Pillow==10.2.0
-numpy==1.26.4
-scipy==1.11.4
-scikit-image==0.22.0
-
-# Data
-pandas==2.2.2
-openpyxl==3.1.2
-
-# Plot
-matplotlib
-seaborn
-plotly
-
-# Utils
-requests
-python-dateutil
-loguru
-tqdm
-
-# PyTorch (CPU only)
---find-links https://download.pytorch.org/whl/cpu
-torch==2.1.2+cpu
-torchvision==0.16.2+cpu
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+Pillow>=10.3.0
