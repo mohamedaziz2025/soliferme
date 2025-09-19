@@ -10,7 +10,7 @@ streamlit-camera-input-live==0.2.0
 # Vision par ordinateur et IA
 ultralytics==8.0.196
 opencv-python-headless==4.8.0.76
-# opencv-contrib-python n'est pas nécessaire et peut causer des conflits sur Streamlit Cloud
+# pas besoin de opencv-contrib-python sur Streamlit Cloud
 
 # OCR et QR Code
 easyocr
@@ -18,13 +18,13 @@ pyzbar
 qrcode
 
 # Traitement d'images
-Pillow==9.5.0
-numpy==1.24.3
-scipy==1.10.1
-scikit-image==0.21.0
+Pillow==10.2.0
+numpy==1.26.4
+scipy==1.11.4
+scikit-image==0.22.0
 
 # Manipulation de données
-pandas==2.0.3
+pandas==2.2.2
 openpyxl==3.1.2
 
 # Visualisation
@@ -47,49 +47,49 @@ psutil
 loguru
 python-dotenv
 
-# Codecs vidéo (optionnel pour certains formats)
+# Codecs vidéo
 imageio
 imageio-ffmpeg
 
-# Support pour les formats d'images avancés
+# Support images avancées
 pillow-heif
 
 # Barres de progression
 tqdm
 
-# PyTorch - version CPU pour Streamlit Cloud
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
+# PyTorch - version CPU compatible Python 3.13
+--find-links https://download.pytorch.org/whl/cpu
+torch==2.5.0+cpu
+torchvision==0.20.0+cpu
 
-# Pour les calculs scientifiques
-sympy==1.12.0
+# Calculs scientifiques
+sympy==1.13.0
 
-# Support des formats de données
-h5py==3.9.0
+# Support formats de données
+h5py==3.10.0
 
-# Détection automatique des encodages
+# Encodages
 chardet==5.2.0
 
-# Interface Web avancée
+# UI avancée
 streamlit-aggrid
 streamlit-option-menu
 
-# Gestion mémoire optimisée
+# Gestion mémoire
 memory-profiler
 
-# Support multiplateforme
+# Compatibilité
 pathlib2
 
-# Validation des données
+# Validation
 pydantic
 
-# Formats d'export avancés
+# Export
 reportlab
 fpdf2
 
 # Traitement parallèle
 joblib
 
-# Interface mobile (optionnel)
+# Optionnel mobile
 streamlit-mobile-detection
