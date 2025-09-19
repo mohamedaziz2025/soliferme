@@ -7,10 +7,8 @@ opencv-python-headless==4.8.0.76
 easyocr==1.7.2
 pyzbar==0.1.9
 qrcode==8.2
-Pillow==9.5.0
-
-# PyTorch CPU wheels
-torch==2.0.1
-torchvision==0.15.2
-torchaudio==2.0.2
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+torchaudio==2.0.2+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
+Pillow==10.4.0
