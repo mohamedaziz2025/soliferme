@@ -1,14 +1,14 @@
-streamlit==1.24.0
-streamlit-drawable-canvas==0.9.0
-streamlit-webrtc==0.47.1
-streamlit-camera-input-live==0.2.0
-ultralytics==8.0.196
-opencv-python-headless==4.8.0.76
-easyocr==1.7.2
-pyzbar==0.1.9
-qrcode==8.2
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
-torchaudio==2.0.2+cpu
+streamlit
+streamlit-drawable-canvas
+streamlit-webrtc
+streamlit-camera-input-live
+ultralytics
+opencv-python-headless
+easyocr
+pyzbar
+qrcode
+torch
+torchvision
+torchaudio
 --extra-index-url https://download.pytorch.org/whl/cpu
-Pillow==10.4.0
+Pillow
