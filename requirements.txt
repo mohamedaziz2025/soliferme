@@ -1,95 +1,38 @@
-# ArborVision - Requirements
-# Application de détection et analyse arboricole
-
-# Interface utilisateur
+# Streamlit + UI
 streamlit==1.24.0
 streamlit-drawable-canvas==0.9.0
 streamlit-webrtc==0.47.1
 streamlit-camera-input-live==0.2.0
 
-# Vision par ordinateur et IA
+# Vision
 ultralytics==8.0.196
 opencv-python-headless==4.8.0.76
-# pas besoin de opencv-contrib-python sur Streamlit Cloud
-
-# OCR et QR Code
 easyocr
 pyzbar
 qrcode
 
-# Traitement d'images
+# Images
 Pillow==10.2.0
 numpy==1.26.4
 scipy==1.11.4
 scikit-image==0.22.0
 
-# Manipulation de données
+# Data
 pandas==2.2.2
 openpyxl==3.1.2
 
-# Visualisation
+# Plot
 matplotlib
 seaborn
 plotly
 
-# Utilitaires de base
+# Utils
 requests
-json5
-PyYAML
-
-# Gestion des dates et temps
 python-dateutil
-
-# Interface système
-psutil
-
-# Configuration et logging
 loguru
-python-dotenv
-
-# Codecs vidéo
-imageio
-imageio-ffmpeg
-
-# Support images avancées
-pillow-heif
-
-# Barres de progression
 tqdm
 
-# PyTorch - version CPU compatible Python 3.13
+# PyTorch (CPU only)
 --find-links https://download.pytorch.org/whl/cpu
-torch==2.5.0+cpu
-torchvision==0.20.0+cpu
-
-# Calculs scientifiques
-sympy==1.13.0
-
-# Support formats de données
-h5py==3.10.0
-
-# Encodages
-chardet==5.2.0
-
-# UI avancée
-streamlit-aggrid
-streamlit-option-menu
-
-# Gestion mémoire
-memory-profiler
-
-# Compatibilité
-pathlib2
-
-# Validation
-pydantic
-
-# Export
-reportlab
-fpdf2
-
-# Traitement parallèle
-joblib
-
-# Optionnel mobile
-streamlit-mobile-detection
+torch==2.1.2+cpu
+torchvision==0.16.2+cpu
