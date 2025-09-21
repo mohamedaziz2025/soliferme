@@ -3,7 +3,7 @@ streamlit-drawable-canvas
 streamlit-webrtc
 streamlit-camera-input-live
 ultralytics
-
+opencv-python-headless
 easyocr
 pyzbar
 qrcode
@@ -12,4 +12,5 @@ torchvision
 torchaudio
 --extra-index-url https://download.pytorch.org/whl/cpu
 Pillow
+
 
